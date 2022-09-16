@@ -100,7 +100,27 @@
 lets say we made some folder (secretkey), (help) and want to ignore both the file than we can just do ```secretkey/help```
 
 
+# Push Repo
 
+```git remote add origin <github repo link>```
+
+```git remote -v```
+
+To push master branch
+
+```git branch -M master```
+
+```git push -u origin master```
+
+If you want to push other branches
+
+```git checkout branch_name```
+
+```git push -u origin master```
+
+or 
+
+```git push -u origin dev```
 
 
 
